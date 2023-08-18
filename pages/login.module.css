@@ -1,0 +1,60 @@
+
+/* login.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #4F0DA3; Purple background color */
+    background-image: url('/assets/logo.png'); /* Replace with the path to your logo image */
+    /* background-repeat: no-repeat; */
+    background-size: 50px; /* Adjust the size of the logo as needed */
+    background-position: center;
+  }
+  
+  .loginForm {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the form */
+  }
+  
+  .loginForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4F0DA3; /* Purple color for the form heading */
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Black color for labels */
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border for input fields */
+    border-radius: 4px;
+  }
+  
+  .loginButton {
+    background-color: #4F0DA3; /* Purple background color for the login button */
+    color: #fff; /* White text color for the login button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .loginButton:hover {
+    background-color: #6934A3; /* Darker purple color on hover */
+  }
+  
